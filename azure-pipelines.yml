@@ -5,4 +5,5 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo "Hello from pipeline"
+- script: echo "Hello from Azure DevOps pipeline"
+  displayName: "Run a simple echo"
